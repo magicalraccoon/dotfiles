@@ -69,7 +69,6 @@ exit
 #.bashrc
 #.ssh/
 #.zshrc
-#.oh-my-zsh/
 #.weechat/
 #.vimrc
 #.vim/
