@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
@@ -44,18 +44,21 @@ rm -rf vim-colors/solarized
 
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
+echo "All done!"
 exit
 
 #fstab
 
-#powerline-reload
-# sudo vim /etc/gdm/custom.conf  
+# powerline-reload
+
+# disable wayland 'cause it's not ready yet!!
+# sudo vim /etc/gdm/custom.conf 
 
 ### manual installs ###
 #hack font
 #virtualbox
 
-### dotfiles ###
+### include ###
 #.bashrc
 #.ssh/
 #.zshrc
