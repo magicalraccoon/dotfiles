@@ -3,17 +3,17 @@
     projectHome: "/home/raccoon/projects"
     telemetryConsent: "limited"
     themes: [
-      "atom-solarized-dark-ui"
-      "solarized-dark-syntax"
+      "one-dark-ui"
+      "atom-material-syntax"
     ]
   editor:
     fontFamily: "Hack"
-    fontSize: 16
     invisibles: {}
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "07862180-be15-4026-a21d-3b79f056680a"
+  "markdown-preview": {}
   welcome:
     showOnStartup: false

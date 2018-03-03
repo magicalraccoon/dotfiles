@@ -2,7 +2,7 @@
  export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 #auto tmux
-if [ "$TMUX" = "" ]; then tmux; fi
+#if [ "$TMUX" = "" ]; then tmux; fi
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/raccoon/.oh-my-zsh
@@ -76,7 +76,7 @@ fi
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -90,8 +90,6 @@ if [ -f /usr/bin/neofetch ]; then neofetch; fi
 
 
 # Powerlevel config
-PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon sshcontent dir_writable dir aws rbenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status load root_indicator background_jobs vpn_ip public_ip command_execution_time time)
+PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(context root_indicator os_icon sshcontent dir aws rbenv vcs)
 
-
-
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time load vpn_ip public_ip time)

@@ -17,7 +17,7 @@ sudo dnf copr enable konimex/neofetch -y
 
 sudo dnf install -y http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
 
-sudo dnf install -y zsh dnf-plugins-core vim zsh tmux steam  weechat keepass spotify itch gnome-tweak-tool dwarffortress gnome-themes-standard gtk-murrine-engine neofetch autoconf automake pkg-config gtk3-devel flash-plugin vlc chromium gcc lsb-core-noarch chrome-gnome-shell htop wine VirtualBox tmux-powerline powerline VirtualBox
+sudo dnf install -y zsh dnf-plugins-core vim zsh steam  weechat keepass spotify itch gnome-tweak-tool dwarffortress gnome-themes-standard gtk-murrine-engine neofetch autoconf automake pkg-config gtk3-devel flash-plugin vlc chromium gcc lsb-core-noarch chrome-gnome-shell htop wine VirtualBox powerline
 
 wget https://github.com/atom/atom/releases/download/v1.23.1/atom.x86_64.rpm
 sudo rpm -i atom.x86_64.rpm
@@ -60,7 +60,7 @@ exit
 # powerline-reload
 
 ### disable wayland 'cause it's not ready yet!! ###
-# sudo vim /etc/gdm/custom.conf 
+# sudo vim /etc/gdm/custom.conf
 
 ### manual installs ###
 #hack font
@@ -73,5 +73,4 @@ exit
 #.vimrc
 #.vim/
 #.atom/
-#.tmux.conf
 #.config/neofetch
