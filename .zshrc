@@ -88,6 +88,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 if [ -f /usr/bin/neofetch ]; then neofetch; fi
 
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # Powerlevel config
 PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(context root_indicator os_icon sshcontent dir aws rbenv vcs)

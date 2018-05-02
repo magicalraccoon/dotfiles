@@ -10,7 +10,7 @@ set laststatus=2
 syntax on
 
 " Set to 256Color "
-set term=gnome-256color
+" set term=gnome-256color "
 
 " Ruler and numbers "
 set ruler
@@ -28,9 +28,10 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
-" Enable solarized (dark) "
+" Enable material-monokai (dark) "
 set background=dark
-colorscheme solarized
+set termguicolors
+colorscheme material-monokai
 
 " Spaces and Tabs "
 set tabstop=4
@@ -47,12 +48,12 @@ set showmatch
 set wildmenu
 
 " allows cursor change in tmux mode "
-if exists('$TMUX')
-  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-else
-  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-endif
+" if exists('$TMUX') "
+"  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\" "
+"  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\" "
+" else "
+"  let &t_SI = "\<Esc>]50;CursorShape=1\x7" "
+"  let &t_EI = "\<Esc>]50;CursorShape=0\x7" "
+" endif "
 
-
+let g:airline_theme='materialmonokai'

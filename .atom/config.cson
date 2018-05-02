@@ -1,19 +1,35 @@
 "*":
+  "atom-ide-ui":
+    use: {}
   core:
-    projectHome: "/home/raccoon/projects"
+    disabledPackages: [
+      "floobits"
+    ]
+    projectHome: "/home/raccoon/Projects"
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
+      "pristine-ui"
       "atom-material-syntax"
     ]
   editor:
     fontFamily: "Hack"
+    fontSize: 18
     invisibles: {}
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "07862180-be15-4026-a21d-3b79f056680a"
+  firacode: {}
   "markdown-preview": {}
+  minimap: {}
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#6500cd"
+      zBright:
+        brightBlue: "#8d00ff"
+    style:
+      theme: "one-dark"
   welcome:
     showOnStartup: false

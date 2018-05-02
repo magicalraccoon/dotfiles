@@ -1,7 +1,3 @@
-This tool has been deprecated, use 'gio trash' instead.
-See 'gio help trash' for more info.
-
-gio: file:///var/tmp/_copr_espionage724-wine-patches-pbaXX94G3NH.repo: Unable to find or create trash directory for /var/tmp/_copr_espionage724-wine-patches-pbaXX94G3NH.repo
 Attempting to call a function in a renderer window that has been closed or released.
 Function provided here: worker.js:71:22
 Remote event names: destroyed, crashed
