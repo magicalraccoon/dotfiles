@@ -1,0 +1,37 @@
+"*":
+  "atom-ide-ui":
+    use: {}
+  core:
+    disabledPackages: [
+      "floobits"
+    ]
+    projectHome: "/home/raccoon/Projects"
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "limited"
+    themes: [
+      "nord-atom-ui"
+      "nord-atom-syntax"
+    ]
+  editor:
+    fontFamily: "Hack"
+    fontSize: 23
+    invisibles: {}
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "07862180-be15-4026-a21d-3b79f056680a"
+  firacode: {}
+  "markdown-preview": {}
+  minimap: {}
+  "nord-atom-ui": {}
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#6500cd"
+      zBright:
+        brightBlue: "#8d00ff"
+    style:
+      theme: "one-dark"
+  welcome:
+    showOnStartup: false
