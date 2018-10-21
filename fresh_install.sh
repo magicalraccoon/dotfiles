@@ -16,6 +16,7 @@ ln -sf $REPODIR/.config/neofetch/ ~/.config/
 # vim #
 echo "Linking vim"
 ln -sf $REPODIR/.vim/ ~/
+ln -sf $REPODIR/.vimrc ~/
 
 # tmux #
 echo "Linking tmux"
@@ -28,3 +29,5 @@ ln -sf $REPODIR/.weechat ~/
 # bashrc #
 echo "Linking .bashrc"
 ln -sf $REPODIR/.bashrc ~/
+
+
