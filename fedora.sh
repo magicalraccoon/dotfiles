@@ -10,7 +10,7 @@ sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-r
 sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-spotify.repo
 
 # Various programs
-sudo dnf install -y git zsh dnf-plugins-core firefox vim steam  weechat keepass spotify-client itch dwarffortress neofetch autoconf automake vlc gcc htop wine VirtualBox powerline
+sudo dnf install -y git zsh dnf-plugins-core firefox vim steam weechat keepass spotify-client itch dwarffortress neofetch autoconf automake vlc gcc htop wine VirtualBox powerline
 
 # atom
 sudo dnf install $(curl -sL "https://api.github.com/repos/atom/atom/releases/latest" | grep "https.*atom.x86_64.rpm" | cut -d '"' -f 4)
