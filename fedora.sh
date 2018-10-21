@@ -7,7 +7,7 @@ sudo dnf update -y
 sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Various programs
-sudo dnf install -y zsh dnf-plugins-core vim zsh steam  weechat keepass spotify itch gnome-tweak-tool dwarffortress gnome-themes-standard gtk-murrine-engine neofetch autoconf automake pkg-config gtk3-devel flash-plugin vlc gcc lsb-core-noarch htop wine VirtualBox powerline
+sudo dnf install -y zsh dnf-plugins-core vim zsh steam  weechat keepass spotify itch  dwarffortress neofetch autoconf automake pkg-config vlc gcc lsb-core-noarch htop wine VirtualBox powerline
 
 # oh-my-zsh installer
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
