@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 REPODIR=$(dirname "$(readlink -f "$0")")
 
 # atom #
