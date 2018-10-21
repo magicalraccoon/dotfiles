@@ -24,3 +24,7 @@ ln -sf $REPODIR/.tmux.conf ~/
 # weechat #
 echo "Linking weechat"
 ln -sf $REPODIR/.weechat ~/
+
+# bashrc #
+echo "Linking .bashrc"
+ln -sf $REPODIR/.bashrc ~/
