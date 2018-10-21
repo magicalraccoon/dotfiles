@@ -30,4 +30,6 @@ ln -sf $REPODIR/.weechat ~/
 echo "Linking .bashrc"
 ln -sf $REPODIR/.bashrc ~/
 
-
+# zshrc #
+echo "Linking .zshrc"
+ln -sf $REPODIR/.zshrc ~/
