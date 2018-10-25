@@ -1,3 +1,6 @@
 [submodule "github/nerd-fonts"]
 	path = github/nerd-fonts
 	url = https://github.com/ryanoasis/nerd-fonts
+[submodule "github/powerlevel9k"]
+	path = github/powerlevel9k
+	url = git@github.com:bhilburn/powerlevel9k.git
