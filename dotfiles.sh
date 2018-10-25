@@ -37,3 +37,8 @@ ln -sf $REPODIR/.zshrc ~/
 # oh-my-zsh #
 echo "Linking oh-my-zsh"
 ln -sf $REPODIR/.oh-my-zsh ~/
+
+# powerlevel9k #
+echo "Linking powerlevel9k"
+ln -sf $REPODIR/github/powerlevel9k $REPODIR/github/oh-my-zsh/custom/themes/
+
