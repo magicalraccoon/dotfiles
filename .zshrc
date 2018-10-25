@@ -96,7 +96,9 @@ if [ -f /usr/bin/neofetch ]; then neofetch; fi
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # Powerlevel config
-PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(context root_indicator os_icon sshcontent dir aws rbenv vcs)
+# (context root_indicator os_icon sshcontent dir aws rbenv vcs)
+PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(context root_indicator os_icon sshcontent dir aws rbenv vc)
 
+# (virtualenv status command_execution_time load public_ip time)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status command_execution_time load public_ip time)
 
