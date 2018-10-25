@@ -33,3 +33,7 @@ ln -sf $REPODIR/.bashrc ~/
 # zshrc #
 echo "Linking .zshrc"
 ln -sf $REPODIR/.zshrc ~/
+
+# oh-my-zsh #
+echo "Linking oh-my-zsh"
+ln -sf $REPODIR/.oh-my-zsh ~/

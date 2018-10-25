@@ -4,8 +4,13 @@
 #auto tmux
 #if [ "$TMUX" = "" ]; then tmux; fi
 
+
+# Powerlevel9k fonts
+POWERLEVEL9K_MODE='nerdfont-complete'
+
+
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/raccoon/.oh-my-zsh
+  export ZSH=/home/raccoon/Projects/dotfiles/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -94,3 +99,4 @@ export PATH="$HOME/.cargo/bin:$PATH"
 PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(context root_indicator os_icon sshcontent dir aws rbenv vcs)
 
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status command_execution_time load vpn_ip public_ip time)
+
