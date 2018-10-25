@@ -10,7 +10,7 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/raccoon/Projects/dotfiles/.oh-my-zsh
+  export ZSH=/home/raccoon/Projects/dotfiles/github/oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
