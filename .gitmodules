@@ -1,6 +1,3 @@
 [submodule "github/nerd-fonts"]
 	path = github/nerd-fonts
 	url = https://github.com/ryanoasis/nerd-fonts
-[submodule "github/oh-my-zsh"]
-	path = github/oh-my-zsh
-	url = git@github.com:robbyrussell/oh-my-zsh.git
