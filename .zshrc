@@ -99,12 +99,14 @@ export PATH="$HOME/.cargo/bin:$PATH"
 #
 # Newline
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
+POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 
 # lines
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="╭"
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="╰❱❱❱ "
+
+
 # (context root_indicator os_icon sshcontent dir aws rbenv vcs)
 PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(status context root_indicator os_icon sshcontent dir_writable dir aws rbenv vcs)
 
