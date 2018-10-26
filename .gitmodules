@@ -10,9 +10,6 @@
 [submodule "github/.tmux"]
 	path = github/.tmux
 	url = git@github.com:gpakosz/.tmux.git
-[submodule "github/icons-in-terminal"]
-	path = github/icons-in-terminal
-	url = git@github.com:sebastiencs/icons-in-terminal.git
 [submodule "github/ls-icons"]
 	path = github/ls-icons
 	url = git@github.com:sebastiencs/ls-icons.git
