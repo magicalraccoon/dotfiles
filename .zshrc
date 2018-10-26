@@ -99,8 +99,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 # (context root_indicator os_icon sshcontent dir aws rbenv vcs)
-PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator os_icon sshcontent dir aws rbenv vcs)
+PROWELEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator os_icon sshcontent dir_writable dir aws rbenv vcs)
 
 # (virtualenv status command_execution_time load public_ip time)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status command_execution_time load public_ip time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status command_execution_time load public_ip)
 
