@@ -13,3 +13,6 @@
 [submodule "github/ls-icons"]
 	path = github/ls-icons
 	url = git@github.com:sebastiencs/ls-icons.git
+[submodule "github/colorls"]
+	path = github/colorls
+	url = git@github.com:athityakumar/colorls.git
