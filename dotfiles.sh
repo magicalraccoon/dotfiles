@@ -20,7 +20,7 @@ ln -sf $REPODIR/.vimrc ~/
 
 # tmux #
 echo "Linking tmux"
-ln -sf $REPODIR/github/.tmux/.tmux.conf ~/.tmux.conf.local
+ln -sf $REPODIR/github/.tmux/.tmux.conf ~/
 
 # weechat #
 echo "Linking weechat"
