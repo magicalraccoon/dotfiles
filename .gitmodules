@@ -7,9 +7,6 @@
 [submodule "github/oh-my-zsh"]
 	path = github/oh-my-zsh
 	url = git@github.com:robbyrussell/oh-my-zsh.git
-[submodule "github/.tmux"]
-	path = github/.tmux
-	url = git@github.com:gpakosz/.tmux.git
 [submodule "github/ls-icons"]
 	path = github/ls-icons
 	url = git@github.com:sebastiencs/ls-icons.git
