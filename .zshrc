@@ -4,8 +4,9 @@
 export TERM=xterm-256color
 
 #auto tmux
-#if [ "$TMUX" = "" ]; then tmux; fi
+if [ "$TMUX" = "" ]; then tmux; fi
 
+alias ls='colorls -lA --sd'
 
 # Powerlevel9k fonts
 POWERLEVEL9K_MODE='nerdfont-complete'
