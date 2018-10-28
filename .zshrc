@@ -95,6 +95,9 @@ if [ -f /usr/bin/neofetch ]; then neofetch; fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Alias
+alias lc='colorls -lA --sd'
+
 # Powerlevel config
 #
 # Newline

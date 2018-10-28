@@ -13,3 +13,6 @@
 [submodule "github/colorls"]
 	path = github/colorls
 	url = git@github.com:athityakumar/colorls.git
+[submodule "github/.tmux"]
+	path = github/.tmux
+	url = git@github.com:gpakosz/.tmux.git
